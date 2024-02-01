@@ -1,15 +1,16 @@
+import { Link } from "react-router-dom"
 export function Navbar(props){
     return(
         <nav>
             <ul>
                 <li>
-                    {/* Link added here later */}
+                    <Link to="/">HOME</Link>
                 </li>
                 <li>
-                    {/* Link added here later */}
+                    <Link to="/about">ABOUT</Link>
                 </li>
                 <li>
-                    {/* Link added here later */}
+                    <Link to="/contact">CONTACT</Link>
                 </li>
             </ul>
         </nav>

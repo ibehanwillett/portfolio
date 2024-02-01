@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-    <div >
+    {/* <div >
         <div id="name">
             <h1>Imogen</h1>
             <h1>Behan-</h1>
@@ -26,7 +26,7 @@ function App() {
         <button>
           CONTACT
         </button>
-      </div>
+      </div> */}
     </>
   )
 }
