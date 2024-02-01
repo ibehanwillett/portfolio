@@ -1,18 +1,32 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-router-dom";
+
 export function Navbar(props){
+
+    let activeNavStyle = {
+        textDecorationColor: "green",
+        textDecorationLine: "line-through"
+    }
+
     return(
         <nav>
-            <ul>
-                <li>
-                    <Link to="/">HOME</Link>
-                </li>
-                <li>
-                    <Link to="/about">ABOUT</Link>
-                </li>
-                <li>
-                    <Link to="/contact">CONTACT</Link>
-                </li>
-            </ul>
+            <div>
+                    <NavLink to="/" style={({isActive}) => isActive ? activeNavStyle : undefined}>
+                        HOME
+                    </NavLink>
+
+                    <NavLink to="/about"  style={({isActive}) => isActive ? activeNavStyle : undefined}>
+                        ABOUT
+                    </NavLink>
+                
+                    <NavLink to="/contact" style={({isActive}) => isActive ? activeNavStyle : undefined}>
+                        CONTACT
+                    </NavLink>
+
+                    <NavLink to="/projects" style={({isActive}) => isActive ? activeNavStyle : undefined}>
+                        PROJECTS
+                    </NavLink>
+                
+            </div>
         </nav>
     )
 }

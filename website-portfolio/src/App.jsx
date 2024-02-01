@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import mainpic from './assets/mainpic.jpg'
-import './App.css'
+
 
 function App() {
   const [count, setCount] = useState(0)
