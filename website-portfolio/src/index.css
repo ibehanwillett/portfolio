@@ -1,11 +1,19 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Yrsa','Times New Roman', Times, sans-serif;
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Yrsa','Times New Roman', Times, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color-scheme: light;
+  background-color: #5A8F15;
+  display: flex;
+  flex-direction: column;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,24 +23,29 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #f3b7e1;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #fb5ca1;
 }
 
 body {
   margin: 0;
   display: flex;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
 
+
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: gardez, sans-serif;
+  font-style: normal;
+  font-size: 4em;
+  line-height: 1.05em;
+  color: #f9d9fb;
+
+
 }
 
 button {
