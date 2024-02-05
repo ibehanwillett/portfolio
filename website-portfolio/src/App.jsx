@@ -1,32 +1,26 @@
-import { useState } from 'react'
-import mainpic from './assets/mainpic.jpg'
+import './index.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HomePage } from './pages/HomePage'
+import { AboutPage } from './pages/AboutPage'
+import { ContactPage } from './pages/ContactPage'
+import { ProjectsPage } from './pages/ProjectsPage'
+import Footer from './components/Footer.jsx'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-    {/* <div >
-        <div id="name">
-            <h1>Imogen</h1>
-            <h1>Behan-</h1>
-            <h1>Willett</h1>
-        </div>
-            <img id="headerpic" src={mainpic} alt="A picture of Imogen Behan-Willett"/> 
-            <p>Web developer.</p>
-    </div>
-    <div id="buttons">
-      <button>
-        ABOUT
-        </button>
-        <button>
-        PROJECTS
-        </button>
-        <button>
-          CONTACT
-        </button>
-      </div> */}
+    <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </>
   )
 }
