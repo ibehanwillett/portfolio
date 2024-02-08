@@ -5,7 +5,7 @@ export function ProjectsPage(props){
         <>
         <Navbar />
         <div>
-            <h1>Projects</h1>
+            <h2>Projects</h2>
             {/* TODO Add projects*/}
         </div>
         </>
