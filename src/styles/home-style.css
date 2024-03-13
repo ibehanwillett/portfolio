@@ -1,3 +1,4 @@
+/* Styling for name and picture */
 #header {
     display: flex;
     margin: 10vmin 0 0 0;
@@ -59,3 +60,35 @@
     font-size: 1.5em;
     align-self: flex-end;
 } */
+
+/* Styling for buttons */
+
+#grid {
+    margin: 10vh 0 0 0;
+    padding: 5vmin;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#grid-top {
+    text-align: center;
+    width: 33%;
+}
+
+#grid-middle {
+    justify-self: center;
+    text-align: center;
+    width: 30%;
+    position: relative;
+    left: 30vw;
+}
+
+#grid-bottom {
+    flex: 1;
+    width: 33%;
+    padding: 0 0 10% 0;
+    position: relative;
+    left: 66%;
+    text-align: center;
+}

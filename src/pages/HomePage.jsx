@@ -17,13 +17,17 @@ export function HomePage(props){
             
                     
             </div>
-            <div id="btn-grid">
-                <Link to="/about" className="home-btn">ABOUT</Link>
-                <br/>
-                <Link to="/projects" className="home-btn">PROJECTS</Link>
-                <br/>
-                <Link to="/contact" className="home-btn">CONTACT</Link>
+            <div id="grid">
+                <div id="grid-top">
+                    <Link to="/about" className="home-btn">ABOUT</Link>
                 </div>
+                <div id="grid-middle">
+                    <Link to="/projects" className="home-btn">PROJECTS</Link>
+                </div>
+                <div id="grid-bottom">
+                    <Link to="/contact" className="home-btn">CONTACT</Link>
+                </div>
+            </div>
             </div>
         </>
         )
