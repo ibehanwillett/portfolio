@@ -6,13 +6,24 @@
     bottom: 0;
     right:0;
     left:0;
-    padding: 1em 0 1em;
+    padding: 1vmin 0 1rem 0;
   }
 
 .footer-body {
-    align-content: center;
+    text-align: center;
   }
 
-a {
-    size: 1em;
+.footer-body p { 
+    font-size: 1rem;
+    margin: 1vmin 0 1vmin 0;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-icon img{
+    height: 2.5rem;
+    width: 2.5rem;
 }

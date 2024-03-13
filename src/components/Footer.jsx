@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="footer">
     <div className="footer-body">
       <p>Contact Imogen</p>
-          <div className="is-flex is-justify-content-space-evenly">
+          <div className="footer-icon">
               <a href="https://github.com/ibehanwillett"> 
                   <img src="../github-mark-white.png" alt="Git Hub Link" className="icon is-medium" />
               </a>
