@@ -1,0 +1,18 @@
+.footer {
+    height: 100px;
+    color:#f3b7e1;
+    background-color: #36550e;
+    position: fixed;
+    bottom: 0;
+    right:0;
+    left:0;
+    padding: 1em 0 1em;
+  }
+
+.footer-body {
+    align-content: center;
+  }
+
+a {
+    size: 1em;
+}

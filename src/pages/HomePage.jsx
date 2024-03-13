@@ -1,6 +1,6 @@
 import mainpic from '../assets/mainpic.jpg'
 import { Link } from 'react-router-dom'
-import './styles/home-style.css'
+import '../styles/home-style.css'
 
 export function HomePage(props){
     return (
