@@ -52,19 +52,12 @@
     /* padding: 0em 4.5em 1em; */
 }
 
-/* #buttons {
-    display: flex;
-    flex-direction: column;
-} */
-/* a {
-    font-size: 1.5em;
-    align-self: flex-end;
-} */
+
 
 /* Styling for buttons */
 
 #grid {
-    margin: 10vh 0 0 0;
+    margin: 10vh 0 5vh 0;
     padding: 5vmin;
     display: flex;
     flex-direction: column;
@@ -92,3 +85,27 @@
     left: 66%;
     text-align: center;
 }
+
+#grid button {
+    background-color: #5A8F15;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    border-style: none;
+    
+}
+
+#grid button:hover {
+    color: #5A8F15;
+    background-color:#f9d9fb;
+    border-style: dotted;
+    border-color: #ff406d;
+}
+
+/* #buttons {
+    display: flex;
+    flex-direction: column;
+} */
+/* a {
+    font-size: 1.5em;
+    align-self: flex-end;
+} */

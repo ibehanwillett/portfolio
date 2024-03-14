@@ -9,7 +9,11 @@ const TextHoverBtn = ({ defaulttxt, hovertxt }) => {
                         onMouseLeave={() => setShow(false)}>
                             {defaulttxt}
                             {show && (
-                                <div>{hovertxt}</div>
+                                <div>
+                                  <i>
+                                    {hovertxt}
+                                  </i>
+                                </div>
                             )}
                         </button>
     </>
